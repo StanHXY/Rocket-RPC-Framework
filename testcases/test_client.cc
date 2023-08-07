@@ -20,10 +20,6 @@
 
 void test_connect() {
 
-  // 调用 conenct 连接 server
-  // wirte 一个字符串
-  // 等待 read 返回结果
-
   int fd = socket(AF_INET, SOCK_STREAM, 0);
 
   if (fd < 0) {

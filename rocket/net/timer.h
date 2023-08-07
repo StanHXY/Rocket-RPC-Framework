@@ -19,7 +19,7 @@ class Timer : public FdEvent {
 
   void deleteTimerEvent(TimerEvent::s_ptr event);
 
-  void onTimer(); // 当发送了 IO 事件后，eventloop 会执行这个回调函数
+  void onTimer(); 
 
  private:
   void resetArriveTime();
