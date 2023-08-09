@@ -1,11 +1,14 @@
 # Rocket - RPC Framework #
 
+![banner](/img/pic01.jpg)
+
+</br>
 
 ## Overview ##
 Rocket is an asynchronous RPC framework developed using C++11. It aims to be efficient and concise while maintaining top-notch performance.
 Rocket is built on the main-sub Reactor architecture, with the underlying layer using epoll for IO multiplexing. The application layer is based on a custom RPC communication protocol using protobuf. It also aims to support basic HTTP protocols.
 
- å
+
 
 ### 1. Key Technologies ###
 C++11
@@ -94,7 +97,7 @@ void loop() {
 ```
 
 In rocket, the Master-Slave Reactor model is used, as shown in the diagram below:
-[image](/img/reactors.png)
+![Alt text or description](/img/reactors.png)
 
 mainReactor:
 
